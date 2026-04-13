@@ -71,7 +71,7 @@ ZTEST_F(gpio_get_direction, test_input)
 {
 	int rv;
 	fixture->flags = GPIO_INPUT;
-	printf("Configuring pin %d on port %s with flags 0x%02x\n", fixture->pin, fixture->port->name,
+	printf("Configuring pn %d on port %s with flags 0x%02x\n", fixture->pin, fixture->port->name,
 	       fixture->flags);
 	common(fixture);
 
